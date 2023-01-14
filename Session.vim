@@ -35,15 +35,15 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 1 - ((0 * winheight(0) + 15) / 30)
+let s:l = 12 - ((11 * winheight(0) + 15) / 30)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1
-normal! 0
+12
+normal! 080|
 wincmd w
 argglobal
-if bufexists("~/work/OpenComputers/lib/robot.lua") | buffer ~/work/OpenComputers/lib/robot.lua | else | edit ~/work/OpenComputers/lib/robot.lua | endif
+if bufexists("~/work/OpenComputers/lib/components/navigation.lua") | buffer ~/work/OpenComputers/lib/components/navigation.lua | else | edit ~/work/OpenComputers/lib/components/navigation.lua | endif
 setlocal fdm=marker
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -52,22 +52,26 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 9 - ((4 * winheight(0) + 0) / 0)
+let s:l = 31 - ((10 * winheight(0) + 0) / 0)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-9
-normal! 028|
+31
+normal! 032|
 wincmd w
 exe '1resize ' . ((&lines * 30 + 16) / 33)
 exe '2resize ' . ((&lines * 0 + 16) / 33)
 tabnext 1
-badd +20 ~/work/OpenComputers/README.md
-badd +5 ~/work/OpenComputers/lib/robot.lua
+badd +1 ~/work/OpenComputers/README.md
+badd +47 ~/work/OpenComputers/lib/robot.lua
 badd +16 ~/work/OpenComputers/lib/jontest.lua
-badd +3 ~/work/OpenComputers/init.sh
-badd +11 ~/work/OpenComputers/tests/test.lua
+badd +4 ~/work/OpenComputers/init.sh
+badd +9 ~/work/OpenComputers/tests/test.lua
 badd +11 ~/work/OpenComputers/tests/robot.lua
+badd +6 ~/work/OpenComputers/lib/component.lua
+badd +8 ~/work/OpenComputers/tests/navigation.lua
+badd +32 ~/work/OpenComputers/lib/components/navigation.lua
+badd +27 ~/work/OpenComputers/lib/inspect.lua
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0
   silent exe 'bwipe ' . s:wipebuf
 endif

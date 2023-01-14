@@ -20,7 +20,7 @@ really take a side arg.
 --]]
 
 function robot.name()
-    return 'name'
+    return 'robot'
 end
 function robot.detect()
     return false, 'string'
