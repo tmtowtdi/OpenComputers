@@ -4,8 +4,8 @@ Edit `init.sh`; make sure its path matches wherever you checked this repo out
 to.  Next:
 ```shell
 $ source init.sh
-$ lua test.lua
-$ ./test.lua
+$ lua tests/test.lua
+$ ./tests/test.lua
 ```
 The two invocations of `test.lua` should work identically.
 
