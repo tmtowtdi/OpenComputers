@@ -18,12 +18,3 @@ calls.  So I'd need eg `lib/component.lua` to include a function `type()` that
 takes a string arg and returns a string.  Doesn't matter what the retval is, the 
 code in `/lib` is not meant to be real code.
 
-# Foo
-Is github really autogenerating a toc if I have enough headers?
-
-## Bar
-Is github really autogenerating a toc if I have enough headers?
-
-# Flurble
-Is github really autogenerating a toc if I have enough headers?
-
