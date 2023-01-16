@@ -7,6 +7,12 @@ https://ocdoc.cil.li/component:navigation
 
 --]]
 
+function navigation.name()
+    -- this is not part of the api, it just makes it easier
+    -- for me to check that I'm using the right lib.
+    return "navigation"
+end
+
 function navigation.getPosition()
     return 10, 20, 30
     --return nil, "error if out of range"
@@ -49,15 +55,6 @@ function navigation.findwaypoints(range)
     -- etc
 
     return t
-end
-function navigation.name()
-    return 'navigation'
-end
-function navigation.name()
-    return 'navigation'
-end
-function navigation.name()
-    return 'navigation'
 end
 
 return navigation

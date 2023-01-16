@@ -20,8 +20,11 @@ really take a side arg.
 --]]
 
 function robot.name()
-    return 'robot'
+    -- this is not part of the api, it just makes it easier
+    -- for me to check that I'm using the right lib.
+    return "robot"
 end
+
 function robot.detect()
     return false, 'string'
     -- false return means what's in front will not impede the robot

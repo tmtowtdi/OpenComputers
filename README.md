@@ -1,4 +1,8 @@
 
+# TBD
+- Create some sort of test harness to run \*.lua (maybe except for test.lua) in 
+  tests/
+
 # The goal
 OpenComputers in minecraft uses Lua code and it exposes a bunch of different 
 APIs and components specific to the game (robots, navigation, etc).  
@@ -24,5 +28,16 @@ much more than Hello World.  The other test scripts in `tests/` are meant to
 show that the actual libraries work.  They're also examples of how those libs 
 should be called.
 
+# Tests
+in ROOT/tests/.
+
+These test scripts are not meant to test every function in a given lib, since 
+the functions are all purposely just stubs.
+
+The main point of these tests is to ensure that the library or component can be 
+required and run.  Every script in here (other than test.lua) really should run.
+
+The test.lua test is pretty much for just dicking around, testing whatever you 
+want to test.
 
 
