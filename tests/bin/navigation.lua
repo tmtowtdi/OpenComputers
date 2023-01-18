@@ -1,7 +1,7 @@
 #!/usr/bin/lua
 
 local inspect = require "inspect"
-local c = require "component"
+local c = require "tests.component"
 local n = c.navigation
 
 print( "Module being tested is ", n.name() )

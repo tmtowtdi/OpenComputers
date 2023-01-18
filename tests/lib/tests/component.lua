@@ -7,8 +7,8 @@ function component.name()
     return "component"
 end
 
-component.navigation = require "components/navigation"
-component.redstone = require "components/redstone"
+component.navigation = require "tests.components/navigation"
+component.redstone = require "tests.components/redstone"
 
 
 return component

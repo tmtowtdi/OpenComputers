@@ -1,6 +1,6 @@
 #!/usr/bin/lua
 
-local c = require "component"
+local c = require "tests.component"
 local i = require "inspect"
 local r = c.redstone
 

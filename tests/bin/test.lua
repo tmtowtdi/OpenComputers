@@ -1,6 +1,6 @@
 #!/usr/bin/lua
 
-local j = require "jontest"
+local j = require "tests.jontest"
 
 j.worky()
 j.worky_alias()

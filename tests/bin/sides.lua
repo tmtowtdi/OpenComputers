@@ -1,6 +1,6 @@
 #!/usr/bin/lua
 
-local side = require "sides"
+local side = require "tests.sides"
 print( "Module being tested is ", side.name() )
 
 print "Bottom - 0"

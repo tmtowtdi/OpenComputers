@@ -1,6 +1,6 @@
 #!/usr/bin/lua
 
-local r = require "robot"
+local r = require "tests.robot"
 print( "Module being tested is ", r.name() )
 
 r.forward()
