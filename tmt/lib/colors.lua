@@ -1,16 +1,21 @@
 
 local colors = {}
+
+function colors.hello()
+    print("Hello, world!")
+end
+
+
 function colors.name()
     -- this is not part of the api, it just makes it easier
     -- for me to check that I'm using the right lib.
-    return "colors"
+    return( "colors" )
 end
 
 --[[
 
 https://ocdoc.cil.li/api:colors
 
---]]
 
 function colors.white()
     return 0
@@ -61,5 +66,6 @@ function colors.black()
     return 15
 end
 
+--]]
 return colors
 
