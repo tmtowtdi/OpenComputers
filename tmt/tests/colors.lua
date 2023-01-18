@@ -1,10 +1,6 @@
 
 local color = require( "colors.colors" )
 print( "Module being tested is ", color.name() )
-colors.hello()
-
---[[
---]]
 
 print( color.white() )
 print( color.orange() )
