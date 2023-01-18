@@ -1,5 +1,6 @@
 
-local color = require "colors"
+local color = ( require "colors" )
+--local color = ( require "colors.colors" )
 print( "Module being tested is ", color.name() )
 
 print( color.white() )
