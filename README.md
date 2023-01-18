@@ -34,6 +34,8 @@ should be called.
 here](https://github.com/OpenPrograms/Vexatos-Programs/blob/master/oppm/example.cfg).  
 This needs to be copied to `programs.cfg` and edited as needed. 
 
+oppm register tmtowtdi/OpenComputers
+
 # Tests
 in ROOT/tests/.
 
