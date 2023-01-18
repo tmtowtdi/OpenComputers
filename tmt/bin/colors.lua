@@ -1,5 +1,5 @@
 
-local c = require( "colors.colors" )
+local c = require( "libcolors" )
 print( "Module being tested is ", c.name() )
 
 print( c.white() )
