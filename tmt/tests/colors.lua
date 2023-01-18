@@ -1,6 +1,5 @@
-#!/usr/bin/lua
 
-local color = require "colors"
+local color = require( "colors" )
 print( "Module being tested is ", color.name() )
 
 print( color.white() )
