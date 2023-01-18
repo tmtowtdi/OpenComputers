@@ -28,6 +28,12 @@ much more than Hello World.  The other test scripts in `tests/` are meant to
 show that the actual libraries work.  They're also examples of how those libs 
 should be called.
 
+# OPPM Packages
+## oppm_example.cfg
+[From 
+here](https://github.com/OpenPrograms/Vexatos-Programs/blob/master/oppm/example.cfg).  
+This needs to be copied to `programs.cfg` and edited as needed. 
+
 # Tests
 in ROOT/tests/.
 
